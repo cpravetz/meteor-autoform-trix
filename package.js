@@ -1,12 +1,12 @@
 Package.describe({
   name: 'seakaytee:autoform-trix',
   summary: 'Trix editor for aldeed:autoform',
-  version: '0.1.0',
+  version: '0.1.1',
   git: 'https://github.com/cpravetz/meteor-autoform-trix'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('2.3');
+  api.versionsFrom(['2.3','3.0']);
 
   api.use([
     'templating',
